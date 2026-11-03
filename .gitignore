@@ -1,0 +1,67 @@
+# ==============================================================================
+# 1. System & IDE Specific
+# ==============================================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==============================================================================
+# 2. Python & FastAPI Specific (via uv / venv)
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# FastAPI / Python Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# 3. Node.js & Vite (TypeScript) Specific
+# ==============================================================================
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Production build outputs
+dist/
+out/
+build/
+
+# Vite TS compilation caches
+*.tsbuildinfo
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================================================================
+# 4. Security & Environment Variables (Crucial)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ==============================================================================
+# 5. Next.js Specific
+# ==============================================================================
+.next/
