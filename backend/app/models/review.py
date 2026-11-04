@@ -8,7 +8,7 @@ class Review(SQLModel, table=True):
     """
     Review model representing a user's review for an event.
     """
-    __tablename__ = "reviews"
+    __tablename__ = "reviews" # type: ignore
 
     id: Optional[int] = Field(default=None, primary_key=True, index=True)
     user_id: int = Field(foreign_key="users.id", index=True)
